@@ -14,7 +14,7 @@ import webpackConfig from "./webpack.conf";
 
 const browserSync = BrowserSync.create();
 const hugoBin = "hugo";
-const defaultArgs = ["-d", "../dist", "-s", "site", "-v"];
+const defaultArgs = ["-d", "dist", "-s", ".", "-v"];
 
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
@@ -23,9 +23,9 @@ gulp.task("build", ["css", "js", "videos", "images", "hugo"]);
 gulp.task("build-preview", ["css", "js", "videos", "images", "hugo-preview"]);
 
 gulp.task("css", () => (
-  gulp.src("./src/css/*.css")
+  gulp.src("./static/css/*.css")
     .pipe(postcss([
-      cssImport({from: "./src/css/main.css"}),
+      cssImport({from: "./static/css/main.css"}),
       neatgrid(),
       colorfunctions(),
       nestedcss(),
@@ -48,19 +48,19 @@ gulp.task("js", (cb) => {
     cb();
   });
 
-  gulp.src(["./src/js/**/*", "!./src/js/app.js", "!./src/js/cms.js", "!./src/js/cms/**/*"])
+  gulp.src(["./static/js/**/*", "!./static/js/app.js", "!./static/js/cms.js", "!./static/js/cms/**/*"])
     .pipe(gulp.dest("./dist/js"))
     .pipe(browserSync.stream())
 });
 
 gulp.task("videos", () => (
-  gulp.src("./src/videos/**/*")
+  gulp.src("./static/videos/**/*")
     .pipe(gulp.dest("./dist/videos"))
     .pipe(browserSync.stream())
 ));
 
 gulp.task("images", () => (
-  gulp.src("./src/img/**/*")
+  gulp.src("./static/img/**/*")
     .pipe(gulp.dest("./dist/img"))
     .pipe(browserSync.stream())
 ));
@@ -72,11 +72,13 @@ gulp.task("server", ["hugo", "css", "js", "videos", "images"], () => {
     },
     notify: false
   });
-  gulp.watch("./src/js/**/*.js", ["js"]);
-  gulp.watch("./src/css/**/*.css", ["css"]);
-  gulp.watch("./src/img/**/*", ["images"]);
-  gulp.watch("./src/videos/**/*", ["videos"]);
-  gulp.watch("./site/**/*", ["hugo"]);
+  gulp.watch("./static/js/**/*.js", ["js"]);
+  gulp.watch("./static/js/*.js", ["js"]);
+  gulp.watch("./static/css/**/*.css", ["css"]);
+  gulp.watch("./static/img/**/*", ["images"]);
+  gulp.watch("./static/videos/**/*", ["videos"]);
+  gulp.watch("./layouts/**/*", ["hugo"]);
+  gulp.watch("./content/**/*", ["hugo"]);
 });
 
 function buildSite(cb, options) {

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en-US">
+	{{ partial "header.html" . }}
+	<body id="collection-58d7a914414fb59196f5372d" class="site-alignment-center header-navigation-normal body-links-underlined blog-sidebar-right hide-entry-author index-fullwidth gallery-controls-bullets enable-thumbnail-hover show-category-navigation hide-social-icons social-icon-style-normal   event-show-past-events event-thumbnails event-thumbnail-size-32-standard event-date-label  event-list-show-cats event-list-date event-list-time event-list-address   event-icalgcal-links  event-excerpts  event-item-back-link    product-list-titles-under product-list-alignment-center product-item-size-43-four-thirds product-image-auto-crop product-gallery-size-11-square product-gallery-auto-crop show-product-price show-product-item-nav product-social-sharing newsletter-style-dark hide-opentable-icons opentable-style-dark small-button-style-solid small-button-shape-square medium-button-style-solid medium-button-shape-square large-button-style-solid large-button-shape-square image-block-poster-text-alignment-center image-block-card-dynamic-font-sizing image-block-card-content-position-center image-block-card-text-alignment-left image-block-overlap-dynamic-font-sizing image-block-overlap-content-position-center image-block-overlap-text-alignment-left image-block-collage-dynamic-font-sizing image-block-collage-content-position-top image-block-collage-text-alignment-left image-block-stack-dynamic-font-sizing image-block-stack-text-alignment-left button-style-solid button-corner-style-square tweak-product-quick-view-button-style-floating tweak-product-quick-view-button-position-bottom tweak-product-quick-view-lightbox-excerpt-display-truncate tweak-product-quick-view-lightbox-show-arrows tweak-product-quick-view-lightbox-show-close-button tweak-product-quick-view-lightbox-controls-weight-light native-currency-code-gbp collection-type-gallery collection-layout-default collection-58d7a914414fb59196f5372d homepage view-list mobile-style-available logo-image">
+
+		{{ if .Site.Params.Navigation.enable }}	
+			{{ partial "mobile-nav.html" . }}
+		{{ end }}
+	
+		{{ "<!-- Wrapper -->" | safeHTML }}
+	<div id="canvasWrapper">
+			<div id="canvas">
+			{{ if .Site.Params.Navigation.enable }}
+				{{ partial "nav.html" . }}
+			{{ end }}
+		{{ "<!-- Main -->" | safeHTML }}
+		<div id="pageWrapper">
+				<section id="page">
+					<div id="footerWrapper" class="wistia-video">
+						<!-- <h1 id="slogan">DELIVER AN UNFORGETTABLE <br>EXPERIENCE</h1> -->
+						
+						<!-- <div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_bgiplqy92u popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;position:relative;width:100%">&nbsp;</span></div></div>
+						<img class="design-thinking-variation" src="img/tactics-and-methodology-22.png" alt="" /> -->
+				</div>
+						<div class="extra-wrapper page-header">
+						<div class="sqs-layout sqs-grid-12 columns-12 empty" data-layout-label="portfolio Header Content" data-type="block-field" data-updated-on="1490531713470" id="page-header-58d7a914414fb59196f5372d">
+							<div class="row sqs-row">
+								<div class="col sqs-col-12 span-12"></div>
+							</div>
+						</div>
+					</div>
+					<div class="clear" data-content-field="main-content" id="mainContent" role="main">
+					
+						{{ "<!-- Thumblist -->" | safeHTML}}
+						{{ if .Site.Params.Tiles.enable }}
+							{{ partial "tile.html" . }}
+						{{ end }}
+					
+						{{ "<!-- Gallery -->" | safeHTML}}
+						{{ if .Site.Params.Gallery.enable }}
+							{{ partial "gallery.html" . }}
+						{{ end }}
+				</div>
+				<!-- {{ partial "footer.html" . }} -->
+				</section>
+
+
+		</div>
+	</div>
+</div>
+	{{ "<!-- Scripts -->" | safeHTML}}
+		{{ partial "js.html" . }}
+	</body>
+</html>

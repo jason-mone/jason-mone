@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:3000/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/</loc>
+    <lastmod>9999-04-21T13:43:43-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/patched-clothing/</loc>
+    <lastmod>9999-04-21T13:43:35-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog10/</loc>
+    <lastmod>9999-04-21T13:43:44-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog2/</loc>
+    <lastmod>9999-04-21T13:43:36-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog3/</loc>
+    <lastmod>9999-04-21T13:43:37-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog4/</loc>
+    <lastmod>9999-04-21T13:43:38-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog5/</loc>
+    <lastmod>9999-04-21T13:43:39-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog6/</loc>
+    <lastmod>9999-04-21T13:43:40-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog7/</loc>
+    <lastmod>9999-04-21T13:43:41-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog8/</loc>
+    <lastmod>9999-04-21T13:43:42-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:3000/blog9/</loc>
+    <lastmod>9999-04-21T13:43:43-06:00</lastmod>
+  </url>
+  
+</urlset>

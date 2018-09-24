@@ -1,0 +1,40 @@
+{{ "<!-- Header Navigation -->" | safeHTML }}
+<div id="headerWrapper">
+        <header id="header">
+            <div id="logo" data-content-field="site-title">
+                <h1 class="logo">
+                    <a href="/">
+                     <img src="/img/photo.png" alt="Camellie">
+                    </a>
+                </h1>
+            </div>
+
+            <script>
+                    Y.use('squarespace-ui-base', function(Y) {
+                      Y.one("h1.logo").plug(Y.Squarespace.TextShrink, {
+                        parentEl: Y.one('#logo')
+                      });
+                    });
+                  </script>
+
+
+            <div id="topNav">
+                <nav class="main-nav dropdown-hover">
+                    <ul data-content-field="navigation">
+                        {{ range .Site.Params.Navigation.links }}
+                            <li class="gallery-collection">
+                                <a href="{{ .url | absURL}}">{{ .name }}</a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </nav>
+            </div>
+            <div id="backToThumbs">
+                &times;
+            </div>
+        </header>
+    </div>
+
+
+
+

@@ -1,0 +1,16 @@
+{{ "<!-- Header -->" | safeHTML }}
+
+<div class="thumb-list clear" id="thumbList">
+
+    {{ range .Site.Params.Tiles.showcase }} 
+
+
+
+        <span class="thumb" data-slide-id="{{ .slideId }}" >
+            <img data-load="false" data-src="{{ .image }}" data-image="{{ .image }}" data-image-dimensions="{{ .dimension }}" data-image-focal-point="0.5,0.5" alt="{{ .title }}">      
+        <div class="thumb-title">
+          {{ .title }}
+        </div>
+    </span> 
+{{ end }}
+</div>

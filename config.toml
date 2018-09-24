@@ -1,3 +1,241 @@
-baseURL = "http://example.org/"
+# Site settings
+baseURL = "http://localhost:3000"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jason Mone"
+
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Your name"
+  description = "Your description"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Navigation Section
+  [params.navigation]
+    enable = true
+    # Display your showcases here.
+    [[params.navigation.links]]
+      name = "portfolio"
+      url = "/"
+
+    # [[params.navigation.links]]
+    #   name = "blog"
+    #   url = "/blog"
+    # [[params.navigation.links]]
+    #   name = "about"
+    #   url = "/about"
+
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+
+
+
+
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "patched clothing"
+      slideId = "5ae77a57aa4a994ec9dd09f4"
+      image = "/img/patched.png"
+      url = "patched-clothing"
+      dimension = "1010x472"
+
+    [[params.tiles.showcase]]
+      title = "movie app concept"
+      slideId = "5adf26d46d2a730adc065209"
+      image = "img/isometric-iphone-x-clay-by-360mockups.png"
+      url = "test-2"
+      dimension = "1080x1080"
+
+    # [[params.tiles.showcase]]
+    #   title = "test-3"
+    #   slideId = "5adf26a288251b24a370a8ba"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5adf26a288251b24a370a8ba/1524574252067/illo-2.jpg"
+    #   url = "test-3"
+    #   dimension = "2500x1708"
+
+    # [[params.tiles.showcase]]
+    #   title = "test-4"
+    #   slideId = "5ac3598aaa4a99295f438ce6"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ac3598aaa4a99295f438ce6/1522936975980/15.jpg"
+    #   url = "test-4"
+    #   dimension = "1431x1312"
+
+    # [[params.tiles.showcase]]
+    #   title = "test-5"
+    #   slideId = "5aba7c0c1ae6cfd1328a29a4"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5aba7c0c1ae6cfd1328a29a4/1522170916009/13.jpg"
+    #   url = "test-5"
+    #   dimension = "1500x1500"
+
+    # [[params.tiles.showcase]]
+    #   title = "test-6"
+    #   slideId = "5ab257a30e2e722eee2706ea"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ab257a30e2e722eee2706ea/1523466121100/hacksack.gif"
+    #   url = "test-6"
+    #   dimension = "1920x1080"
+
+    # [[params.tiles.showcase]]
+    #   title = "test-7"
+    #   slideId = "5ad0d2f170a6adbfd899498c"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ad0d2f170a6adbfd899498c/1523634970656/dev.jpg"
+    #   url = "test-7"
+    #   dimension = "2081x921"
+
+    # [[params.tiles.showcase]]
+    #   title = "test-8"
+    #   slideId = "5adf27378a922de4c3c00a04"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5adf27378a922de4c3c00a04/1524574045933/illo-header.jpg"
+    #   url = "test-8"
+    #   dimension = "2312x1400"
+   
+    # [[params.tiles.showcase]]
+    #   title = "test-9"
+    #   slideId = "5ad0d34b6d2a73d7d2501760"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ad0d34b6d2a73d7d2501760/1523635678505/shopping1.jpg"
+    #   url = "test-9"
+    #   dimension = "1802x1200"
+    
+    # [[params.tiles.showcase]]
+    #   title = "test-10"
+    #   slideId = "5ab399e98a922d5e4a06e603"
+    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ab399e98a922d5e4a06e603/1521719829221/S%26P-illo-3.jpg"
+    #   url = "test-10"
+    #   dimension = "1802x1200"
+    # You can make more showcases by copy and pasting the code above
+
+  [params.blog]
+    # All blogs defined in their own files. You can find example blogs
+    # at 'exampleSite/content/blogs'. Copy the 'blogs' folder into the 'content' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    # To add more blogs just copy and paste the code.
+
+  # Section Type Two
+  [params.two]
+    enable = true
+    title = "Massa libero"
+    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
+    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
+    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
+    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
+    buttonText = "Get Started"
+    url = "blogs"
+
+
+[params.gallery]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.gallery.showcase]]
+     title = "Aliquam"
+     image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ae77a57aa4a994ec9dd09f4/1525119609287/18-2.jpg"
+     
+
+  # Contact section
+  [params.contact]
+    enable = true
+    buttonSend = "Send message"
+    buttonClear = "Clear"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "example@domain.com"
+
+    [[params.contact.phone]]
+    title = "Phone"
+    phone = "(000) 000-0000 x1234"
+
+    [[params.contact.address]]
+    title = "Address"
+    street = "Street"
+    city = "City, ST 00000"
+    country = "Country"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "Company Name"
+
+    # Uses font awesome icons
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      url= "https://www.twitter.com"
+      label = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      url= "https://www.facebook.com"
+      label = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-instagram"
+      url= "https://www.instagram.com"
+      label = "Instagram"
+    
+    [[params.footer.social]]
+      icon = "fa-github"
+      url= "https://www.github.com"
+      label = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      url= "https://www.linkedin.com"
+      label = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Design: "
+      url= "https://www.html5up.net"
+      alt = "HTML5 UP"

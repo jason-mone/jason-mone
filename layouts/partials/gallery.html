@@ -1,0 +1,59 @@
+<div id="galleryWrapper">
+        <div id="slideshowWrapper">
+            <div id="slideshow">
+            
+                        
+                {{ range .Data.Pages.ByLastmod }}
+                    <div class="slide" data-slide-id="{{ .Params.slideId }}" data-slide-url="#itemId={{ .Params.slideId }}">
+                        <section>
+                        <div class="banner-container"><div class="page-header-bg-image"  alt="{{ .Params.title }}" style="background-image: url({{.Params.image}});"></div></div>
+                        
+                            <div class="image-description">
+                                <strong>{{ .Title }}</strong>
+                            </div>
+                            <p>
+                                {{ .Content }}
+                            </p>
+                        </section>  
+                    </div>
+
+
+
+                    {{ end }}
+
+            </div>
+<div id="imageInfoToggle">
+        <i></i><span>info</span>
+    </div>
+</div>
+<div id="simpleControls">
+    <span class="control prev-slide">prev</span>
+    / 
+    <span class="control next-slide">next</span>
+</div>
+
+
+<div class="gallery-controls" id="numberControls">
+        {{ $.Scratch.Set "count" 0 }}
+        {{ range .Site.Params.Tiles.showcase }}
+        {{ $.Scratch.Add "count" 1 }}
+    <span class="number">              
+      {{ $.Scratch.Get "count" }}
+    </span>
+        {{ end }}
+</div>
+<div class="gallery-controls" id="dotControls">
+    
+    
+        {{ range .Site.Params.Tiles.showcase }}
+    <span class="dot">&middot;</span> 
+    {{ end }}
+
+</div>
+            
+<div class="gallery-controls" id="tinyThumbControls">
+    {{ range .Site.Params.Tiles.showcase }}
+    <span class="tiny-thumb"><img height="30" src="{{ .image }}"></span>
+    {{ end }}
+</div>
+</div>
