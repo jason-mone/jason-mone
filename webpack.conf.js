@@ -24,7 +24,7 @@ export default {
     })
   ],
 
-  context: path.join(__dirname, "src"),
+  context: path.join(__dirname, "static"),
   entry: {
     app: ["./js/app"],
     cms: ["./js/cms"]
