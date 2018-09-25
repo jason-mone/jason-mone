@@ -18205,6 +18205,8 @@
 }
 .vimeo {
     width: 380px;
+    margin: auto;
+    display: block !important;
 }
 .the-solution-illustration img, .understand-illustration img,.improve-illustration, .the-problem-illustration img, .apply-illustration img, .the-design-process img, .framing-the-question img {
 width: 100%;

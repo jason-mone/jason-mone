@@ -71,14 +71,14 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "patched clothing"
       slideId = "5ae77a57aa4a994ec9dd09f4"
-      image = "/img/patched.png"
+      image = "/img/patched.jpg"
       url = "patched-clothing"
       dimension = "1010x472"
 
     [[params.tiles.showcase]]
       title = "movie app concept"
       slideId = "5adf26d46d2a730adc065209"
-      image = "img/isometric-iphone-x-clay-by-360mockups.png"
+      image = "img/isometric-iphone-x-clay-by-360mockups.jpg"
       url = "test-2"
       dimension = "1080x1080"
 

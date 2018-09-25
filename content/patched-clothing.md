@@ -11,8 +11,7 @@ lastmod: "9999-04-21T13:43:35-06:00"
         <div class="the-problem">
             <h1>THE PROBLEM</h1>
             <p>
-                I worked on a innovative e-commerce startup project. Our goal was to deliver an e-commerce merchandise
-                with custumizable features to bring on the clothing without losing the user experience.</p>
+                I worked on an innovative e-commerce startup project. Our goal was to deliver an e-commerce merchandise with customizable features to bring on the clothing without losing the user experience.</p>
         </div>
         <div class="the-problem-illustration">
             <img src="img/tactics-and-methodology-22-2.png" alt="" />
@@ -22,7 +21,7 @@ lastmod: "9999-04-21T13:43:35-06:00"
         </div>
         <div class="the-solution">
             <h1>THE SOLUTION</h1>
-            <p>Patched Clothing offers a responsive website that enables users to personlise and design their own clothing with patches. The posbilities are endless.</p>
+            <p>Patched Clothing offers a responsive website that enables users to personalize and design their own clothing with patches. The possibilities are endless.</p>
         </div>
         <div class="the-solution-illustration">
             <img src="img/tactics-and-methodology-26.png" alt="" />
@@ -51,16 +50,15 @@ lastmod: "9999-04-21T13:43:35-06:00"
     <div class="yui3-u-1 understand">
         <h1>UNDERSTAND</h1>
         <p>
-            My design process starts with the people we are designing for and ends with the solution that suits their
-            needs. </p>
+            My design process starts with the people we are designing for and ends with the solution that suits their needs. The first steps I used for this appraoch were:</p>
     </div>
     <div class="yui3-u-3-10 understand">
         <div class="step">
             <img src="img/hmw-notes.png" alt="" />
             <span>
-                <h6>how might we notes</h6>
+                <h6>how might we noting</h6>
                 <p>
-                    framing the design challanges </p>
+                    framing the design challenges</p>
             </span>
         </div>
         <div class="step">
@@ -74,10 +72,10 @@ lastmod: "9999-04-21T13:43:35-06:00"
         <div class="yui3-u-24-24">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(img/img005-1.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/img005-2.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/img005-3.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/img005-4.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery01.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery02.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery03.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery04.jpg)"></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -95,9 +93,7 @@ lastmod: "9999-04-21T13:43:35-06:00"
     <div class="yui3-u-1 improve">
         <h1>IMPROVE</h1>
         <p>
-            The next phase was to transform our concept findings into meaningful and actionable insights. I organized
-            several ideas with the team and stakeholders to make sense of what we learned and come up with
-            some ideas of what we should build.</p>
+            The next phase was to transform our concept findings into meaningful and actionable insights. I organized several ideas with the team and stakeholders to make sense of what we learned and come up with some ideas of what we should build.</p>
     </div>
     <div class="yui3-u-1 improve-illustration">
         <img src="img/tactics-and-methodology-25.png" alt="" />
@@ -108,16 +104,16 @@ lastmod: "9999-04-21T13:43:35-06:00"
             <span>
                 <h6>task flow wireframing</h6>
                 <p>
-                    defing a single flow completed by all users for a specifc action
+                    defining a single flow completed by all users for a specific action
                 </p>
             </span>
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/wireframe-task-1.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/wireframe-task-2.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/wireframe-task-3.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/wireframe-task-4.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery05.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery06.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery07.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery08.jpg)"></div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -126,16 +122,16 @@ lastmod: "9999-04-21T13:43:35-06:00"
             <span>
                 <h6>low fidelty prototyping</h6>
                 <p>
-                    creating a mininamal tangible prototype</p>
+                    creating a minimal tangible prototype</p>
             </span>
         </div>
         <div class="yui3-u-24-24">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(img/lowfid-1.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/lowfid-2.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/lowfid-3.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/lowfid-4.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery09.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery10.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery11.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery12.jpg)"></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
@@ -147,8 +143,7 @@ lastmod: "9999-04-21T13:43:35-06:00"
     <div class="yui3-u-1 apply">
         <h1>APPLY</h1>
         <p>
-            The next phase was to transform our concept findings into meaningful and interactive prototypes. 
-            to go through rapid iterations of prototyping and getting feedback for improvement.</p>
+            The next phase was to implement our findings through rapid iterations of prototyping and getting feedback for improvement.</p>
     </div>
     <div class="yui3-u-3-10 apply">
         <div class="step">
@@ -156,12 +151,12 @@ lastmod: "9999-04-21T13:43:35-06:00"
             <span>
             <h6>high fidelty protoyping</h6>
             <p>
-                creating a full interactive protoype</p>
+                creating a fully interactive prototype</p>
             </span>
         </div>
         <div class="yui3-u-24-24">
-            <div class="swiper-container vimeo">
-                <div style="padding:172.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/291285993?loop=1" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+            <div class="yui3-u-1 vimeo">
+                <div style="padding:172.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/291285993?loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
             </div>
         </div>
     </div>

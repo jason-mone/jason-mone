@@ -21851,7 +21851,7 @@
                         a(r);
                         var n = i.hit(this._noCookieAllowed());
                         e.Data.post({
-                            url: "/api/census/RecordHit",
+                            url: "/",
                             data: {
                                 event: t,
                                 data: r,
@@ -21870,13 +21870,13 @@
                 },
                 trackProductQuickView: function(t) {
                     this.shouldRecord() && e.Data.post({
-                        url: "/api/census/RecordQuickView/" + t,
+                        url: "/" + t,
                         success: u,
                         failure: u
                     })
                 },
-                trackButtonClick: t("/api/census/button-click"),
-                trackButtonView: t("/api/census/button-render"),
+                trackButtonClick: t("/"),
+                trackButtonView: t("/"),
                 trackFormRender: function(t) {
                     if (this.shouldRecord()) {
                         var a = {
@@ -21886,7 +21886,7 @@
                         return e.Squarespace.Census.addIntraPageEventFields(a),
                         e.Squarespace.Promises.create(function(t) {
                             e.Data.post({
-                                url: "/api/census/form-render",
+                                url: "/",
                                 json: !0,
                                 data: a,
                                 success: t,
@@ -26204,7 +26204,7 @@
                 e.Squarespace.globalInit = function(t) {
                     U(e),
                     t.Squarespace.EscManager && t.Squarespace.EscManager.attach(t.one(t.config.win)),
-                    t.Squarespace.Census.trackPageview(),
+                    
                     t.Squarespace.CensusHeartbeat.initializeHeartbeat(),
                     F("en-US"),
                     t.config.win.Squarespace._humanizeAllDates(".timesince"),
