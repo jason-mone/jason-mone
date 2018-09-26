@@ -50,7 +50,7 @@ lastmod: "9999-04-21T13:43:35-06:00"
     <div class="yui3-u-1 understand">
         <h1>UNDERSTAND</h1>
         <p>
-            My design process starts with the people we are designing for and ends with the solution that suits their needs. The first steps I used for this appraoch were:</p>
+            My design process starts with the people we are designing for and ends with the solution that suits their needs. The first steps I used for this approach were:</p>
     </div>
     <div class="yui3-u-3-10 understand">
         <div class="step">
