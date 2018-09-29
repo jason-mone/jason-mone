@@ -110,10 +110,10 @@ lastmod: "9999-04-21T13:43:35-06:00"
         </div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/gallery05.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/gallery06.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/gallery07.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/gallery08.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery09.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery10.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery11.jpg)"></div>
+                <div class="swiper-slide" style="background-image:url(img/gallery12.jpg)"></div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
@@ -128,10 +128,10 @@ lastmod: "9999-04-21T13:43:35-06:00"
         <div class="yui3-u-24-24">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(img/gallery09.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery10.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery11.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery12.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery08.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery07.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery06.jpg)"></div>
+                    <div class="swiper-slide" style="background-image:url(img/gallery05.jpg)"></div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
