@@ -1,13 +1,6 @@
 import gulp from "gulp";
 import cp from "child_process";
 import gutil from "gulp-util";
-import postcss from "gulp-postcss";
-import cssImport from "postcss-import";
-import neatgrid from "postcss-neat";
-import nestedcss from "postcss-nested";
-import colorfunctions from "postcss-colour-functions";
-import hdBackgrounds from "postcss-at2x";
-import cssextend from "postcss-simple-extend";
 import BrowserSync from "browser-sync";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
@@ -21,20 +14,6 @@ gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture
 
 gulp.task("build", ["css", "js", "videos", "images", "hugo"]);
 gulp.task("build-preview", ["css", "js", "videos", "images", "hugo-preview"]);
-
-gulp.task("css", () => (
-  gulp.src("./static/**/*.css")
-    .pipe(postcss([
-      cssImport({from: "./static/css/main.css"}),
-      neatgrid(),
-      colorfunctions(),
-      nestedcss(),
-      hdBackgrounds(),
-      cssextend()]))
-    .pipe(gulp.dest("./dist/css"))
-    .pipe(browserSync.stream())
-    
-));
 
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
@@ -75,7 +54,6 @@ gulp.task("server", ["hugo", "css", "js", "videos", "images"], () => {
   });
   gulp.watch("./static/js/**/*.js", ["js"]);
   gulp.watch("./static/js/*.js", ["js"]);
-  gulp.watch("./static/css/**/*.css", ["css"]);
   gulp.watch("./static/img/**/*", ["images"]);
   gulp.watch("./static/videos/**/*", ["videos"]);
   gulp.watch("./layouts/**/*", ["hugo"]);
