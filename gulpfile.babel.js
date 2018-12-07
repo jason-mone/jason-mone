@@ -23,7 +23,7 @@ gulp.task("build", ["css", "js", "videos", "images", "hugo"]);
 gulp.task("build-preview", ["css", "js", "videos", "images", "hugo-preview"]);
 
 gulp.task("css", () => (
-  gulp.src("./static/css/*.css")
+  gulp.src("./static/**/*.css")
     .pipe(postcss([
       cssImport({from: "./static/css/main.css"}),
       neatgrid(),
@@ -33,6 +33,7 @@ gulp.task("css", () => (
       cssextend()]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
+    
 ));
 
 gulp.task("js", (cb) => {

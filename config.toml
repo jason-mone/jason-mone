@@ -39,16 +39,16 @@ disqusShortname = ""
   [params.navigation]
     enable = true
     # Display your showcases here.
-    [[params.navigation.links]]
-      name = "portfolio"
-      url = "/"
+    # [[params.navigation.links]]
+    #   name = "portfolio"
+    #   url = "/"
 
     # [[params.navigation.links]]
-    #   name = "blog"
-    #   url = "/blog"
-    # [[params.navigation.links]]
-    #   name = "about"
-    #   url = "/about"
+    #    name = "about me"
+    #    url = "/about-me"
+    #  [[params.navigation.links]]
+    #    name = "work"
+    #    url = "/work"
 
 
     # Add custom links here by uncommenting code below. To remove links just delete
@@ -71,37 +71,17 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "patched clothing"
       slideId = "5ae77a57aa4a994ec9dd09f4"
-      image = "/img/patched.jpg"
+      image = "assets/patched.jpg"
       url = "patched-clothing"
       dimension = "1010x472"
 
     [[params.tiles.showcase]]
       title = "movie app concept"
       slideId = "5adf26d46d2a730adc065209"
-      image = "img/isometric-iphone-x-clay-by-360mockups.jpg"
-      url = "test-2"
+      image = "assets/isometric-iphone-x-clay-by-360mockups.jpg"
+      url = "movie-app"
       dimension = "1080x1080"
 
-    # [[params.tiles.showcase]]
-    #   title = "test-3"
-    #   slideId = "5adf26a288251b24a370a8ba"
-    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5adf26a288251b24a370a8ba/1524574252067/illo-2.jpg"
-    #   url = "test-3"
-    #   dimension = "2500x1708"
-
-    # [[params.tiles.showcase]]
-    #   title = "test-4"
-    #   slideId = "5ac3598aaa4a99295f438ce6"
-    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5ac3598aaa4a99295f438ce6/1522936975980/15.jpg"
-    #   url = "test-4"
-    #   dimension = "1431x1312"
-
-    # [[params.tiles.showcase]]
-    #   title = "test-5"
-    #   slideId = "5aba7c0c1ae6cfd1328a29a4"
-    #   image = "https://static1.squarespace.com/static/58d78959d2b857f33fb6172c/58d7a914414fb59196f5372d/5aba7c0c1ae6cfd1328a29a4/1522170916009/13.jpg"
-    #   url = "test-5"
-    #   dimension = "1500x1500"
 
     # [[params.tiles.showcase]]
     #   title = "test-6"

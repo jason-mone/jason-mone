@@ -19,14 +19,9 @@
 			</div>
 
 		{{ "<!-- Footer -->" | safeHTML}}
-			{{ if .Site.Params.Footer.enable }}
-				{{ partial "footer.html" . }}
-			{{ end }}
-
 		</div>
 
 	{{ "<!-- Scripts -->" | safeHTML}}
-		{{ partial "js.html" . }}
 
 	</body>
 </html>

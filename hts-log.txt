@@ -1,0 +1,20 @@
+HTTrack3.49-2 launched on Sat, 03 Nov 2018 12:10:19 at website yukaidu.com/
+(httrack website yukaidu.com/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:10:19	Warning: 	HTML file (606 bytes) retransferred due to lack of cache: yukaidu.com/
+12:10:20	Error: 	"Unable to get server's address: nodename nor servname provided, or not known" (-5) after 2 retries at link website/robots.txt (from primary/primary)
+12:10:20	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link website/ (from primary/primary)
+12:10:21	Warning: 	Moved Permanently for yukaidu.com/robots.txt
+12:10:21	Warning: 	Redirected link is identical because of 'URL Hack' option: yukaidu.com/robots.txt and https://yukaidu.com/robots.txt
+12:10:21	Warning: 	Warning moved treated for yukaidu.com/robots.txt (real one is https://yukaidu.com/robots.txt)
+12:10:21	Warning: 	Moved Permanently for yukaidu.com/
+12:10:21	Warning: 	Redirected link is identical because of 'URL Hack' option: yukaidu.com/ and https://www.yukaidu.com/
+12:10:21	Warning: 	File has moved from yukaidu.com/ to https://www.yukaidu.com/
+12:10:21	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link website/ (from primary/primary)
+12:10:21	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link website/ (from primary/primary)
+12:10:21	Warning: 	No data seems to have been transferred during this session! : restoring previous one!

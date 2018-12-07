@@ -1,16 +1,22 @@
 {{ "<!-- Header -->" | safeHTML }}
 
-<div class="thumb-list clear" id="thumbList">
+{{ range .Site.Params.Tiles.showcase }}
+<div class="index-section index-page-transition-link ">
+    <article class="index-item has-item-image phases">
+        <a class="index-item-link intrinsic" href="{{ .url }}" style="background-repeat: no-repeat; background-size: cover; background-image:linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75)), url('{{ .image }}');" >
+        </a>
+        <div class="index-item-text-wrapper ">
+            <h2 class="index-item-title">
+                <a class="index-item-title-link" href="{{ .url }}">
 
-    {{ range .Site.Params.Tiles.showcase }} 
+                    <span class="index-item-title-text">{{ .title }}</span>
+                 
+                </a>
 
-
-
-        <span class="thumb" data-slide-id="{{ .slideId }}" >
-            <img data-load="false" data-src="{{ .image }}" data-image="{{ .image }}" data-image-dimensions="{{ .dimension }}" data-image-focal-point="0.5,0.5" alt="{{ .title }}">      
-        <div class="thumb-title">
-          {{ .title }}
+            </h2>
+            <div class="index-item-title-text">view full coverage</div>
         </div>
-    </span> 
-{{ end }}
+    </article>
+
 </div>
+{{ end }} 

@@ -1,40 +1,35 @@
 {{ "<!-- Header Navigation -->" | safeHTML }}
-<div id="headerWrapper">
-        <header id="header">
-            <div id="logo" data-content-field="site-title">
-                <h1 class="logo">
-                    <a href="/">
-                     <img src="/img/photo.jpg" alt="jason">
-                    </a>
-                </h1>
-            </div>
-
-            <script>
-                    Y.use('squarespace-ui-base', function(Y) {
-                      Y.one("h1.logo").plug(Y.Squarespace.TextShrink, {
-                        parentEl: Y.one('#logo')
-                      });
-                    });
-                  </script>
-
-
-            <div id="topNav">
-                <nav class="main-nav dropdown-hover">
-                    <ul data-content-field="navigation">
-                        {{ range .Site.Params.Navigation.links }}
-                            <li class="gallery-collection">
-                                <a href="{{ .url | absURL}}">{{ .name }}</a>
-                            </li>
-                        {{ end }}
-                    </ul>
-                </nav>
-            </div>
-            <div id="backToThumbs">
-                &times;
-            </div>
-        </header>
+<div class='navbar'>
+    <div class='flex2 container header clearfix'>
+      <div class='toggle'>
+        <div class='toggle-bar top'></div>
+        <div class='toggle-bar middle'></div>
+        <div class='toggle-bar bottom'></div>
+      </div>
+      
+      <ul class='links2'>
+        <li><a href="/">jason mone</a></li>
+      </ul>
+      
+      <ul class='links'>
+            {{ range .Site.Params.Navigation.links }}
+        <li><a class="" href="{{ .url | absURL}}">{{ .name }}</a></li>            
+        {{ end }}
+        <li><a class="" href="pages/integrations.html">jason.mone@pm.me</a></li>
+        <!-- <li class='dropdown dropdown-toggle-on-hover'>
+            <a href="pages/solutions.html">jason.mone@pm.me</a>
+            <ul class='dropdown-menu'>
+              <li><a href="pages/solutions/sales-and-marketing.html">Sales + Marketing</a></li>
+              <li><a href="pages/solutions/customer-success-and-account-management.html">Customer Success + Account Management</a></li>
+              <li><a href="pages/solutions/interview-scheduling.html">Interview Scheduling</a></li>
+              <li><a href="pages/solutions/education.html">Education</a></li>
+              <li><a href="pages/solutions/freelancers-and-consultants.html">Freelancers + Consultants</a></li>
+              <li><a href="pages/solutions/leaders-and-entrepreneurs.html">Leaders + Entrepreneurs</a></li>
+            </ul>
+          </li> -->
+        </li>
+      </ul>
     </div>
-
-
+</div>
 
 

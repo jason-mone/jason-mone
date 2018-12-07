@@ -5,158 +5,213 @@ image: "/img/patched-clothing-hero.jpg"
 dimension: "1080x1080"
 lastmod: "9999-04-21T13:43:35-06:00"
 ---
-
-<div class="yui3-g patched-clothing">
-    <div class="yui3-u-24-24">
-        <div class="the-problem">
-            <h1>THE PROBLEM</h1>
-            <p>
-                I worked on an innovative e-commerce startup project. Our goal was to deliver an e-commerce merchandise with customizable features to bring on the clothing without losing the user experience.</p>
-        </div>
-        <div class="the-problem-illustration">
-            <img src="img/tactics-and-methodology-22-2.png" alt="" />
-        </div>
-        <div class="framing-the-question">
-            <img src="img/hmw.png" alt="" />
-        </div>
-        <div class="the-solution">
-            <h1>THE SOLUTION</h1>
-            <p>Patched Clothing offers a responsive website that enables users to personalize and design their own clothing with patches. The possibilities are endless.</p>
-        </div>
-        <div class="the-solution-illustration">
-            <img src="img/tactics-and-methodology-26.png" alt="" />
-        </div>
-        <div class="my-role">
-            <h1>MY ROLE</h1>
-            <p>
-                <ul>
-                    <li>Planning</li>
-                    <li>Information architecture</li>
-                    <li>Design</li>
-                    <li>Development</li>
-                </ul>
-            </p>
-        </div>
-        <div class="the-design-process">
-        <div class="yui3-u-1">
-        <h1>the design process</h1>
-            <img src="img/tactics-and-methodology-22.png" alt="" />
-        </div>
-        </div>
+<div class="page-container ip-container" id="ip-container" >
+    <div class="svg-wrap" >
+        <svg width="64" height="64" viewbox="0 0 64 64">
+            <path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
+        </svg>
+        <svg width="64" height="64" viewbox="0 0 64 64">
+            <path id="arrow-right-1" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
+        </svg>
     </div>
-    <div class="yui3-u-1 understand-illustration">
-        <img src="img/tactics-and-methodology-23.png" alt="" />
-    </div>
-    <div class="yui3-u-1 understand">
-        <h1>UNDERSTAND</h1>
-        <p>
-            My design process starts with the people we are designing for and ends with the solution that suits their needs. The first steps I used for this approach were:</p>
-    </div>
-    <div class="yui3-u-3-10 understand">
-        <div class="step">
-            <img src="img/hmw-notes.png" alt="" />
-            <span>
-                <h6>how might we noting</h6>
-                <p>
-                    framing the design challenges</p>
-            </span>
-        </div>
-        <div class="step">
-            <img src="img/sketch.png" alt="" />
-            <h6>sketching</h6>
-            <span>
-                <p>
-                    exploring ideas by rough drawing </p>
-            </span>
-        </div>
-        <div class="yui3-u-24-24">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(img/gallery01.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery02.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery03.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery04.jpg)"></div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </div>
-        <div class="step">
-            <img src="img/concept.png" alt="" />
-            <span>
-                <h6>creating a concept</h6>
-                <p>
-                    refining and filtering ideas to start prototyping
+    <nav class="nav-roundslide contain">
+        <a class="prev" href="/movie-app">
+            <span class="icon-wrap"><svg class="icon" width="20" height="20" viewbox="0 0 64 64">
+                    <use xlink:href="#arrow-left-1"></use>
+                </svg></span>
+            <h3>Movie App</h3>
+        </a>
+        <a class="next" href="/movie-app">
+            <span class="icon-wrap"><svg class="icon" width="20" height="20" viewbox="0 0 64 64">
+                    <use xlink:href="#arrow-right-1"></use>
+                </svg></span>
+            <h3 class="brandon">Movie App</h3>
+        </a>
+    </nav>
+    <div class="row12 post-header patched-clothing"></div>
+</div>
+<div class="container">
+    <div class="row">
+        <div id="intro" class="nine columns">
+            <h2 class="brandon">How might we personalize the clothing shopping experience?</h2>
+            <p class=" padding2y">Patched Clothing is a embroidered clothes & accessories shop.  They apply high quality of patches on basic clothing and make it affordable too. The possibilities of creating stylish dresses with patches are unlimited.
                 </p>
-            </span>
+        </div>
+        <div class="three columns">
+            <ul class="facts">
+                <li><i class="fa fa-fw fa-calendar"></i>March, 2017</li>
+                <li><i class="fa fa-fw fa-circle"></i>Information Architecture</li>
+                <li><i class="fa fa-fw fa-code"></i>UX/UI Design</li>
+                <li><i class="fa fa-fw fa-code"></i>Front-end Development</li>
+                <li><i class="fa fa-fw fa-trophy"></i><a class="chatbutton-proto btn-standard btn-blue" data-fancybox
+                        href="https://vimeo.com/video/291285993">View prototype</a></li>
+            </ul>
         </div>
     </div>
-    <div class="yui3-u-1 improve">
-        <h1>IMPROVE</h1>
-        <p>
-            The next phase was to transform our concept findings into meaningful and actionable insights. I organized several ideas with the team and stakeholders to make sense of what we learned and come up with some ideas of what we should build.</p>
-    </div>
-    <div class="yui3-u-1 improve-illustration">
-        <img src="img/tactics-and-methodology-25.png" alt="" />
-    </div>
-    <div class="yui3-u-3-10 understand">
-        <div class="step">
-            <img src="img/taskflow.png" alt="" />
-            <span>
-                <h6>task flow wireframing</h6>
-                <p>
-                    defining a single flow completed by all users for a specific action
-                </p>
-            </span>
+    <div class="row">
+        <div class="one-half column">
+            <h2>THE PROBLEM</h2>
+            <p>Does your clothing not meet your expectations? If only you could customize it beforehand it would be less of a hassle.  It's frustrating when customers need to send their clothing back. So how are we gonna tackle this problem?</p>
         </div>
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background-image:url(img/gallery09.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/gallery10.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/gallery11.jpg)"></div>
-                <div class="swiper-slide" style="background-image:url(img/gallery12.jpg)"></div>
+        <div class="one-half column">
+            <h2>THE SOLUTION</h2>
+            <p>Patched Clothing offers a responsive website that enables customers to personalize and design their own
+                clothing with patches. The possibilities are endless.</p>
+        </div>
+    </div>
+    <div class="row">
+        <h2>the design process</h2>
+        <div class="one column">
+            <img src="/assets/group28.jpg" alt="" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-understand.jpg" />
+        </div>
+        <div class="one-half column">
+            <h2>UNDERSTAND</h2>
+            <p> My design process starts with the people we are designing for and ends with the solution that suits
+                their needs. Unfortunately my client had no time or budget for research so we went straight to the next
+                phase.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-improve.jpg" />
+        </div>
+        <div class="one-half column">
+            <h2>IMPROVE</h2>
+            <p> The next phase was to frame a problem around our requirements into meaningful and actionable insights.
+                We then organized an ideation session with the team and stakeholders to make sense of what we learned
+                and come up with some ideas of what we should build. </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-how-migh-we-noting.jpg" />
+        </div>
+        <div class="one-half column">
+            <div class="step">
+                <span>
+                    <h3>how might we noting</h3>
+                    <p> framing the design challenges: How might we personalize the clothing shopping experience?</p>
+                </span>
             </div>
-            <div class="swiper-pagination"></div>
         </div>
-        <div class="step">
-            <img src="img/lowfi.png" alt="" />
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-sketch.jpg" />
+        </div>
+        <div class="one-half column">
+            <h3>sketching</h3>
             <span>
-                <h6>low fidelty prototyping</h6>
-                <p>
-                    creating a minimal tangible prototype</p>
+                <p> exploring ideas by rough drawing </p>
             </span>
         </div>
-        <div class="yui3-u-24-24">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide" style="background-image:url(img/gallery08.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery07.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery06.jpg)"></div>
-                    <div class="swiper-slide" style="background-image:url(img/gallery05.jpg)"></div>
-                </div>
-                <div class="swiper-pagination"></div>
+    </div>
+        <div class="row">
+        <a class="one-third column" href="/assets/mobile-sketching-1.jpg" data-fancybox="images0" data-caption="My caption">
+            <img src="/assets/mobile-sketching-1-thumb.jpg" alt="" />
+        </a>
+        <a class="one-third column" href="/assets/mobile-sketching-2.jpg" data-fancybox="images0" data-caption="My caption">
+            <img src="/assets/mobile-sketching-2-thumb.jpg" alt="" />
+        </a>
+        <a class="one-third column" href="/assets/mobile-sketching-3.jpg" data-fancybox="images0" data-caption="My caption">
+            <img src="/assets/mobile-sketching-3-thumb.jpg" alt="" />
+        </a>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-deciding.jpg" />
+        </div>
+        <div class="one-half column">
+            <span>
+                <h3>deciding a concept</h3>
+                <p> refining and filtering ideas to start prototyping </p>
+            </span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-user-flow.jpg" />
+        </div>
+        <div class="one-half column">
+            <div class="step">
+                <span>
+                    <h3>task flow wireframing</h3>
+                    <p> defining a single flow completed by all users for a specific action </p>
+                </span>
             </div>
         </div>
     </div>
-    <div class="yui3-u-1 apply-illustration">
-        <img src="img/tactics-and-methodology-27.png" alt="" />
+    <div class="row">
+        <a class="one-third column" href="/assets/wireframe-task-1.jpg" data-fancybox="images" data-caption="My caption">
+            <img src="/assets/wireframe-task-1-thumb.jpg" alt="" />
+        </a>
+        <a class="one-third column" href="/assets/wireframe-task-3.jpg" data-fancybox="images" data-caption="My caption">
+            <img src="/assets/wireframe-task-3-thumb.jpg" alt="" />
+        </a>
+        <a class="one-third column" href="/assets/wireframe-task-4.jpg" data-fancybox="images" data-caption="My caption">
+            <img src="/assets/wireframe-task-4-thumb.jpg" alt="" />
+        </a>
     </div>
-    <div class="yui3-u-1 apply">
-        <h1>APPLY</h1>
-        <p>
-            The next phase was to implement our findings through rapid iterations of prototyping and getting feedback for improvement.</p>
-    </div>
-    <div class="yui3-u-3-10 apply">
-        <div class="step">
-            <img src="img/hifi.png" alt="" />
-            <span>
-            <h6>high fidelty protoyping</h6>
-            <p>
-                creating a fully interactive prototype</p>
-            </span>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-apply.jpg" />
         </div>
-        <div class="yui3-u-24-24">
-            <div class="yui3-u-1 vimeo">
-                <div style="padding:172.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/291285993?loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+        <div class="one-half column">
+            <h2>APPLY</h2>
+            <p> The next phase was to implement our findings through rapid iterations of prototyping and getting
+                feedback for improvement.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-low-fidelity-prototyping.jpg" />
+        </div>
+        <div class="one-half column">
+            <span>
+                <h3>low fidelty prototyping</h3>
+                <p> creating a minimal tangible prototype</p>
+            </span>
+            </div>
+        </div>
+     <div class="row">
+        <a class="one-third column" href="/assets/lowfid-2.jpg" data-fancybox="images3" data-caption="My caption">
+            <img src="/assets/lowfid-2-thumb.jpg" alt="" />
+        </a>
+        <a class="one-third column" href="/assets/lowfid-3.jpg" data-fancybox="images3" data-caption="My caption">
+            <img src="/assets/lowfid-3-thumb.jpg" alt="" />
+        </a>
+        <a class="one-third column" href="/assets/lowfid-4.jpg" data-fancybox="images3" data-caption="My caption">
+            <img src="/assets/lowfid-4-thumb.jpg" alt="" />
+        </a>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-high-fidelity.jpg" />
+        </div>
+        <div class="one-half column">
+            <div class="step">
+                <span>
+                    <h3>high fidelty protoyping</h3>
+                    <p> creating a more polished interactive prototype</p>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="one-half column">
+            <img src="/assets/tactic-front-end.jpg" />
+        </div>
+        <div class="one-half column">
+            <div class="step">
+                <span>
+                    <h3>front-end development</h3>
+                    <p> implementing the design on to the website</p>
+                </span>
             </div>
         </div>
     </div>
