@@ -12,8 +12,8 @@ const defaultArgs = ["-d", "dist", "-s", ".", "-v"];
 gulp.task("hugo", (cb) => buildSite(cb));
 gulp.task("hugo-preview", (cb) => buildSite(cb, ["--buildDrafts", "--buildFuture"]));
 
-gulp.task("build", ["css", "js", "videos", "images", "hugo"]);
-gulp.task("build-preview", ["css", "js", "videos", "images", "hugo-preview"]);
+gulp.task("build", ["js", "videos", "images", "hugo"]);
+gulp.task("build-preview", ["js", "videos", "images", "hugo-preview"]);
 
 gulp.task("js", (cb) => {
   const myConfig = Object.assign({}, webpackConfig);
@@ -45,7 +45,7 @@ gulp.task("images", () => (
     .pipe(browserSync.stream())
 ));
 
-gulp.task("server", ["hugo", "css", "js", "videos", "images"], () => {
+gulp.task("server", ["hugo", "js", "videos", "images"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
