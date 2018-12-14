@@ -4,18 +4,18 @@
 <div class="index-section index-page-transition-link ">
     <article class="index-item has-item-image phases">
         <a class="index-item-link intrinsic" href="{{ .url }}" style="background-repeat: no-repeat; background-size: cover; background-image:linear-gradient(rgba(255, 255, 255, 0.75),rgba(255, 255, 255, 0.75)), url('{{ .image }}');" >
+            <div class="index-item-text-wrapper ">
+                <h2 class="index-item-title">
+    
+    
+                        <span class="index-item-title-text">{{ .title }}</span>
+                     
+
+    
+                </h2>
+                <div class="index-item-title-text">view full coverage</div>
+            </div>
         </a>
-        <div class="index-item-text-wrapper ">
-            <h2 class="index-item-title">
-                <a class="index-item-title-link" href="{{ .url }}">
-
-                    <span class="index-item-title-text">{{ .title }}</span>
-                 
-                </a>
-
-            </h2>
-            <div class="index-item-title-text">view full coverage</div>
-        </div>
     </article>
 
 </div>

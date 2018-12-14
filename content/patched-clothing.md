@@ -5,7 +5,7 @@ image: "/img/patched-clothing-hero.jpg"
 dimension: "1080x1080"
 lastmod: "9999-04-21T13:43:35-06:00"
 ---
-<div class="page-container ip-container" id="ip-container" >
+<div class="post-header" style="background-image: url('/assets/patched-clothing-hero.jpg');">
     <div class="svg-wrap" >
         <svg width="64" height="64" viewbox="0 0 64 64">
             <path id="arrow-left-1" d="M46.077 55.738c0.858 0.867 0.858 2.266 0 3.133s-2.243 0.867-3.101 0l-25.056-25.302c-0.858-0.867-0.858-2.269 0-3.133l25.056-25.306c0.858-0.867 2.243-0.867 3.101 0s0.858 2.266 0 3.133l-22.848 23.738 22.848 23.738z" />
@@ -14,27 +14,30 @@ lastmod: "9999-04-21T13:43:35-06:00"
             <path id="arrow-right-1" d="M17.919 55.738c-0.858 0.867-0.858 2.266 0 3.133s2.243 0.867 3.101 0l25.056-25.302c0.858-0.867 0.858-2.269 0-3.133l-25.056-25.306c-0.858-0.867-2.243-0.867-3.101 0s-0.858 2.266 0 3.133l22.848 23.738-22.848 23.738z" />
         </svg>
     </div>
-    <nav class="nav-roundslide contain">
-        <a class="prev" href="/movie-app">
-            <span class="icon-wrap"><svg class="icon" width="20" height="20" viewbox="0 0 64 64">
-                    <use xlink:href="#arrow-left-1"></use>
-                </svg></span>
-            <h3>Movie App</h3>
-        </a>
-        <a class="next" href="/movie-app">
-            <span class="icon-wrap"><svg class="icon" width="20" height="20" viewbox="0 0 64 64">
-                    <use xlink:href="#arrow-right-1"></use>
-                </svg></span>
-            <h3 class="brandon">Movie App</h3>
-        </a>
-    </nav>
-    <div class="row12 post-header patched-clothing"></div>
 </div>
+<nav class="nav-roundslide contain">
+    <a class="prev" href="/movie-app">
+        <span class="icon-wrap">
+            <svg class="icon" width="20" height="20" viewbox="0 0 64 64">
+                <use xlink:href="#arrow-left-1"></use>
+            </svg>
+        </span>
+        <h3>Movie App</h3>
+    </a>
+    <a class="next" href="/movie-app">
+        <span class="icon-wrap">
+            <svg class="icon" width="20" height="20" viewbox="0 0 64 64">
+                <use xlink:href="#arrow-right-1"></use>
+            </svg>
+        </span>
+        <h3 class="brandon">Movie App</h3>
+    </a>
+</nav>
 <div class="container">
     <div class="row">
         <div id="intro" class="nine columns">
             <h2 class="brandon">How might we personalize the clothing shopping experience?</h2>
-            <p class=" padding2y">Patched Clothing is a embroidered clothes & accessories shop.  They apply high quality of patches on basic clothing and make it affordable too. The possibilities of creating stylish dresses with patches are unlimited.
+            <p class="padding2y">Patched Clothing is a embroidered clothes & accessories shop.  They apply high quality of patches on basic clothing and make it affordable too. The possibilities of creating stylish dresses with patches are unlimited.
                 </p>
         </div>
         <div class="three columns">
@@ -61,8 +64,8 @@ lastmod: "9999-04-21T13:43:35-06:00"
     </div>
     <div class="row">
         <h2>the design process</h2>
-        <div class="one column">
-            <img src="/assets/group28.jpg" alt="" />
+        <div class="twelve columns">
+            <img class="process" src="/assets/group28.jpg" alt="" />
         </div>
     </div>
     <div class="row">

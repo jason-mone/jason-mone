@@ -56,14 +56,18 @@ div.cs-skin-circular.cs-active .cs-options li:nth-child(2) {
 
 
 nav.nav-roundslide a {
-	position: absolute;
-	top: 50%;
-	display: block;
-	outline: none;
-	text-align: left;
-	z-index: 1000;
-	-webkit-transform: translateY(-50%);
-	transform: translateY(-50%);
+
+    position: absolute;
+
+    display: flex;
+    outline: none;
+    text-align: left;
+    z-index: 998;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(var(--size));
+	--size: calc(50% + 47.5px);
+	align-items: center;
+
 }
 
 nav.nav-roundslide a.prev {
@@ -81,9 +85,7 @@ nav.nav-roundslide a svg {
 }
 
 
-.nav-roundslide {
-	top:270px;
-}
+
 .icon-wrap {
 	font: normal normal normal 19px/1 FontAwesome;
 }
@@ -243,9 +245,7 @@ body.projectpage .work img {
 	.post-header {
 		height: 300px;
 	}
-	.nav-roundslide {
-		top: 170px;
-	}
+
 }
 
 @media only screen and (max-width:900px) {
