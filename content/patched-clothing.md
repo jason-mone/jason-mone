@@ -42,7 +42,8 @@ lastmod: "9999-04-21T13:43:35-06:00"
         </div>
         <div class="three columns">
             <ul class="facts">
-                <li><i class="fa fa-fw fa-calendar"></i>March, 2017</li>
+            <li><i class="fa fa-fw fa-calendar"></i><b>SCOPE OF PROJECT</b></li>
+                <li><i class="fa fa-fw fa-calendar"></i>March, 2017 (3 weeks)</li>
                 <li><i class="fa fa-fw fa-circle"></i>Information Architecture</li>
                 <li><i class="fa fa-fw fa-code"></i>UX/UI Design</li>
                 <li><i class="fa fa-fw fa-code"></i>Front-end Development</li>

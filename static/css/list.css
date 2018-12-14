@@ -42,7 +42,8 @@ template {
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
+    color: #39475C;
 }
 
 body {
@@ -1428,4 +1429,17 @@ background-image: url("/assets/patched-clothing-hero.jpg") !important;
     padding-top: 0px;
     position: relative;
     text-align: center;
+}
+.process {
+    max-width: 440px;
+
+    width: 100%;
+    
+    margin: auto;
+    
+    display: block;
+    
+    padding-top: 20px;
+    
+    padding-bottom: 20px;
 }

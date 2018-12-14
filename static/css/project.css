@@ -1,5 +1,5 @@
 a {
-	color: #8383c4;
+	color: #39475C;
 }
 
 .subnav {
@@ -220,10 +220,10 @@ body.projectpage div ul.facts i {
 }
 
 body.projectpage div ul.facts li a {
-	color: #8383c4;
+	color: #39475C;
 }
 body.projectpage  div ul.facts li a:hover {
-	color: #ee595d;
+	color: #08a9fa;
 }
 
 body.projectpage .work img {
